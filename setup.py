@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='finalert',
-    packages=['finalert'],
+    packages=['finalerts'],
     include_package_data=True,
     install_requires=[
         'flask',
