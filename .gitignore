@@ -1,0 +1,15 @@
+fin.db
+.eggs/
+*.pyc
+*.pyo
+env
+env*
+dist
+build
+*.egg
+*.egg-info
+_mailinglist
+.tox
+.cache/
+.idea/
+venv/

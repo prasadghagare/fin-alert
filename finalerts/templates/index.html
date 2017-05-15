@@ -1,0 +1,11 @@
+<html>
+{% block body %}
+<ul class="entries">
+  {% for entry in entries %}
+    <li><h2>{{ entry.stock_name }}</h2>{{ entry.stock_value }}</li>
+  {% else %}
+    <li><em>Unbelievable.  No entries here so far</em></li>
+  {% endfor %}
+  </ul>
+{% endblock %}
+</html>
