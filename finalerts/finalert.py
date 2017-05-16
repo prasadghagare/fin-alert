@@ -7,7 +7,6 @@ app = Flask(__name__)
 
 app.config.from_envvar('FINALERT_SETTINGS', silent=True)
 
-app = Flask(__name__)
 
 app.config.update(dict(
     DATABASE=os.path.join(app.root_path, 'fin.db'),
